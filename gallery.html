@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter Gallery</title>
+    <style>
+      body {
+        background-color: #f5f5dc;
+        margin: 0;
+        font-family: "Oswald", sans-serif;
+      }
+      .navbar {
+        background-color: #002366;
+        border-radius: 0 0 25px 25px;
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+        align-items: center;
+        color: #ffd700;
+      }
+      .navbar ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+      .navbar li {
+        margin: 0 20px;
+      }
+      .navbar li a {
+        text-decoration: none;
+        color: #ffd700;
+        font-weight: bold;
+      }
+      .logo {
+        height: 90px;
+      }
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+      }
+      .news-item{
+        width: 300px;
+        margin: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        overflow: hidden;
+        background-color: #fff;
+      }
+      .news-item img{
+        width: 100%;
+        height: auto;
+      }
+      .news-item-content {
+        padding: 10px;
+      }
+      .news-item h2 {
+        font-size: 18px;
+        margin: 0 0 10px;
+      }
+      .news-item p {
+        font-size: 14px;
+        margin: 0;
+      }
+      footer {
+        background-color: #333a56;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+        border-top: 2px solid #ffd700;
+      }
+      footer .foot {
+        margin-bottom: 10px;
+      }
+      footer .foot a {
+        text-decoration: none;
+        color: #ffd700;
+        font-weight: bold;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
+      }
+      footer .foot a:hover {
+        background-color: #ffd700;
+        color: #333a56;
+      }
+      footer .div2 p {
+        margin: 0;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="./Screenshot 2024-07-12 153046.png" alt="Logo" class="logo" />
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="gallery.html">GALLERY</a></li>
+      </ul>
+    </nav>
+    <div class="gallery">
+      <div class="news-item">
+        <img src="./russia-putin.webp" alt="News 1" />
+        <div class="news-item-content">
+          <h2>
+            Vladimir Putin signs bill increasing income taxes for the wealthy in
+            Russia
+          </h2>
+          <p>
+            Russian President Vladimir Putin signed into law a bill on Friday
+            that introduces progressive income taxes targeting the wealthy,
+            aimed at bolstering government revenues amid ongoing conflict in
+            Ukraine. The legislation, endorsed swiftly after parliamentary
+            approval, replaces the flat-rate income tax system in place since
+            2001.
+          </p>
+        </div>
+      </div>
+      <div class="news-item">
+        <img
+          src="./us-presidential-election-2024-can-joe-biden-be-replaced-by-the-democrats-what-are-the-political-consequences-of-this-move.webp"
+          alt="News 2"
+        />
+        <div class="news-item-content">
+          <h2>
+            House Democratic leader, Joe Biden discuss 'path forward' in private
+            meeting
+          </h2>
+          <p>
+            Hakeem Jeffries met President Biden to discuss Democratic
+            perspectives on Biden's candidacy. Jeffries detailed in a Friday
+            letter to his caucus about their private meeting. Democrats watched
+            Biden's press conference post-NATO summit, urging him to step aside.
+            Reporting by Morgan and Jackson, written by Heavey, and edited by
+            Ayyub.
+          </p>
+        </div>
+      </div>
+      <div class="news-item">
+        <img
+          src="./imran-khans-party-to-emerge-as-largest-party-in-pak-parliament-after-sc-ruling-on-reserved-seats-report.webp"
+          alt="News 3"
+        />
+        <div class="news-item-content">
+          <h2>
+            Imran Khan's party to emerge as largest party in Pak Parliament
+            after SC ruling on reserved seats:
+          </h2>
+          <p>
+            Former Prime Minister Imran Khan's Pakistan Tehreek-e-Insaf (PTI)
+            has secured a significant legal victory as the Supreme Court ruled
+            in favor of its eligibility for reserved seats in Pakistan's
+            Parliament. The 13-member bench, led by Chief Justice Qazi Faez Isa,
+            overturned the Election Commission of Pakistan's decision, declaring
+            it unconstitutional. As a result, PTI's seats in the National
+            Assembly are expected to rise from 86 to 109, positioning it as the
+            largest party. This ruling reshapes the political landscape,
+            potentially altering the dynamics in Parliament despite maintaining
+            the current ruling coalition's majority.
+          </p>
+        </div>
+      </div>
+      <div class="news-item">
+        <img
+          src="./imf-says-emerging-market-capital-inflows-recover-to-2018-levels.webp"
+          alt="News 3"
+        />
+        <div class="news-item-content">
+          <h2>
+            IMF says emerging market capital inflows recover to 2018 levels
+          </h2>
+          <p>
+            The IMF's External Sector Report indicated gross capital inflows
+            into emerging markets, excluding China, hit $110 billion or 0.6% of
+            GDP last year, the highest since 2018, amidst high U.S. interest
+            rates. These markets showed resilience. China faced net outflows and
+            negative FDI. Net portfolio inflows dipped; FDI held steady. (David
+            Lawder; Franklin Paul)
+          </p>
+        </div>
+      </div>
+      <div class="news-item">
+        <img
+          src="./hamas-command-room-inside-unrwa-hq-in-gaza-idf-finds-drone-weapons-caches-and-more.webp"
+          alt="News 3"
+        />
+        <div class="news-item-content">
+          <h2>Hamas command room inside UNRWA HQ in Gaza;</h2>
+          <p>
+            IDF troops have located weapons and a command room used by Hamas at
+            UNRWA's headquarters in Gaza City. The troops raided the compound on
+            July 08 following intelligence indicating Hamas' presence inside the
+            UNRWA HQ in Gaza City. The UNRWA HQ has not been in use in recent
+            months. The IDF raided the compound earlier this year, discovering a
+            major Hamas tunnel network that passed beneath it. In the latest
+            operation, the IDF said the commandos captured Hamas operatives who
+            attempted to flee the UNRWA facility. Commando Brigade troops also
+            found parts of Hamas drone, a command room used to observe Israeli
+            forces and dozens of weapons, including rockets, machine guns,
+            mortars, explosive devices, grenades and drones that drop bombs. In
+            a nearby university building, the IDF said the commandos located an
+            underground bomb-making lab and additional weapons.
+          </p>
+        </div>
+      </div>
+      <div class="news-item">
+        <img
+          src="./search-for-dozens-missing-after-landslide-sweeps-buses-into-nepal-river-is-suspended.webp"
+          alt="News 3"
+        />
+        <div class="news-item-content">
+          <h2>
+            Search for dozens missing after landslide sweeps buses into Nepal
+            river is suspended
+          </h2>
+          <p>
+            Rescuers in Nepal have suspended their search for 51 passengers who
+            are missing after a landslide swept the buses in which they were
+            travelling into a swollen river, authorities said.
+          </p>
+        </div>
+      </div>
+      <div class="news-item">
+        <img
+          src="./france-fire-breaks-out-at-notre-dame-cathedral-amid-restoration-work.jpg"
+          alt="News 3"
+        />
+        <div class="news-item-content">
+          <h2>
+            France: Fire breaks out at Notre Dame cathedral amid restoration
+            work
+          </h2>
+          <p>
+            Rouen: A fire broke out Thursday in the spire of the cathedral in
+            northern French city Rouen, its mayor said, sharing a photo of a
+            column of smoke rising from the Gothic landmark.The fire's "origin
+            is unknown at this point," mayor Nicolas Mayer-Rossignol posted on
+            X, adding that "all public resources are mobilised" to fight the
+            fire.
+          </p>
+        </div>
+      </div>
+      <div class="news-item">
+        <img
+          src="./pm-modi-bimstec-foreign-ministers-discuss-ways-to-strengthen-regional-cooperation.webp"
+          alt="News 3"
+        />
+        <div class="news-item-content">
+          <h2>
+            PM Modi, BIMSTEC Foreign Ministers discuss ways to strengthen
+            regional cooperation
+          </h2>
+          <p>
+            Foreign Ministers from the BIMSTEC member countries have gathered in
+            the national capital for a two-day retreat meeting to bolster
+            cooperation among Bay of Bengal countries. BIMSTEC is a regional
+            organisation comprising 7 member states - Bangladesh, Bhutan, India,
+            Myanmar, Nepal, Sri Lanka, and Thailand.
+          </p>
+        </div>
+      </div>
+      <div class="news-item">
+        <img
+          src="./completely-wrong-to-misinterpret-apex-court-order-on-kejriwal-kiren-rijiju.webp"
+          alt="News 3"
+        />
+        <div class="news-item-content">
+          <h2>
+            Completely wrong to misinterpret apex court order on Kejriwal: Kiren Rijiju
+          </h2>
+          <p>
+            Union Minister Kiren Rijiju criticized the misinterpretation of the Supreme Court's interim bail order for Kejriwal in the ED's money-laundering case, while the AAP celebrated it as a victory. Kejriwal remains jailed due to his June 26 CBI arrest. Justices Khanna and Datta referred the arrest necessity under the Prevention of Money Laundering Act to a larger bench.
+          </p>
+        </div>
+      </div>
+      <div class="news-item">
+        <img
+          src="./jairam-ramesh-new-bccl.webp"
+          alt="News 3"
+        />
+        <div class="news-item-content">
+          <h2>
+            June 4 will go down as 'Modi Mukti Diwas': Congress slams government's Samvidhaan Hatya Diwas move
+          </h2>
+          <p>
+            The government declared June 25, 1975, as 'Samvidhaan Hatya Diwas'. PM Modi announced this, and Jairam Ramesh from Congress criticized it, suggesting 'Aajivika Hatya Diwas' for demonetisation. They labeled Modi's rule undemocratic and referenced 'Modi Mukti Diwas'. The Union Home Ministry condemned power abuse and upheld constitutional values against Manusmriti-inspired ideology.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="div2">
+        <p>Contact us at: contact@newsletter.com | Phone: 123-456-7890</p>
+        <p>Copyright &copy; 2021 Morning Glory Times</p>
+      </div>
+    </footer>
+  </body>
+</html>
